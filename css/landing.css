@@ -1,0 +1,36 @@
+.landing-page {
+    background-image: url('/images/bg/bg_main.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 25vh 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.blur {
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.landing-page h1 {
+    text-align: center;
+}
+
+.landing-page p {
+    text-align: center;
+    font-size: 22px;
+    width: 40vw;
+    /* padding: 0 20vw; */
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .landing-page p {
+        width: 80vw;
+        margin: 0;
+    }
+}
